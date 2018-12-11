@@ -9,7 +9,7 @@ public class TestController {
     // 服务消费者对位提供的服务
     @GetMapping("/test")
     public String findByIdByEurekaServer() {
-        return "ok";
+        return "ok 1";
 
     }
 }
